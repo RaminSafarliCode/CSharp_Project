@@ -371,7 +371,7 @@ namespace FinalProject
                     Console.Clear();
                     Car car = new Car();
                     car.Year = ScannerManager.ReadDate("Enter the release year: ");
-                    car.Price = ScannerManager.ReadDouble("Enter the car price: ");
+                    car.Price = ScannerManager.ReadDouble("Enter the car price [$]: ");
                     car.Color = ScannerManager.ReadString("Enter the car color: ");
                     car.Engine = ScannerManager.ReadDouble("Enter the car engine: ");
                     PrintFuelMenu();
